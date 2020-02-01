@@ -134,9 +134,7 @@ time.sleep(3)
 
 starternum = randomnum(1, 1, 3)
 
-if name == "boblol":
-    starter = ["88675", randomnum(1, 1000, 1000), randomnum(1, 1750, 2250), randomnum(1, 190, 199)]
-elif starternum == 1:
+if starternum == 1:
     starter = ["Sunbeamtiger", randomnum(1, 50, 100), randomnum(1, 175, 225), randomnum(1, 25, 75)]
 elif starternum == 2:
     starter = ["Sunlightcorpion", randomnum(1, 75, 125), randomnum(1, 125, 175), randomnum(1, 50, 100)]
